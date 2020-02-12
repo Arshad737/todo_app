@@ -64,15 +64,17 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     marginLeft: 5,
-    alignItems: 'center'
+    alignItems: 'center',
+    height: 50
   },
-  idContainer: { flex: 0.3 },
+  idContainer: { flex: 0.15 },
   textStyle: { fontSize: 15 },
   titleContainer: { flex: 2 },
   deleteButton: {
     flex: 0.3,
     flexDirection: 'row',
     justifyContent: 'flex-end',
-    marginRight: 10
+    marginRight: 10,
+    alignSelf: 'center'
   }
 });

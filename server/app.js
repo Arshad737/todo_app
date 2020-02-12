@@ -47,6 +47,12 @@ app.get('/todos/:id', (req, res) => {
   if (!toDos) {
     toDos = toDoList.find(_toDo => _toDo.title.toLowerCase() == searchparam);
   }
+  //searching based on body
+  if (!toDos) {
+    toDos = toDoList.find(_toDo =>
+      _toDo.body.toLowerCase().includes(searchparam)
+    );
+  }
   //If searching was successful
   if (toDos) {
     res.status(200).send(toDos);

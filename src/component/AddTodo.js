@@ -47,7 +47,7 @@ export const AddTodo = ({
 };
 
 const style = StyleSheet.create({
-  card: { borderRadius: 10, width: '85%', alignSelf: 'center' },
+  card: { borderRadius: 20, width: '85%', alignSelf: 'center' },
   icon: {
     flexDirection: 'row',
     justifyContent: 'flex-end',
