@@ -7,7 +7,7 @@ To start the project
 
 1. cd server
 2. npm start
-3.cd ..
+3. cd ..
 
 //Starting react native expo porject
 
