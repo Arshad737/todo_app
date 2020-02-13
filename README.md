@@ -6,12 +6,13 @@ To start the project
 //Starting the Node.JS express server
 
 1. cd server
-2. npm start
-3. cd ..
+2. npm install
+3. npm start
+4. cd ..
 
 //Starting react native expo project
-
-4. yarn start 
+6. npm install
+5. npm start
 
 //A new tab with chrome will open choose android emulator to open the project.
 
