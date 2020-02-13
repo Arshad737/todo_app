@@ -8,7 +8,7 @@ To start the project
 1. cd server
 2. npm install
 3. npm start
-4. cd ..
+4. open new terminal
 
 //Starting react native expo project
 
