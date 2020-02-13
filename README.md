@@ -11,6 +11,7 @@ To start the project
 4. cd ..
 
 //Starting react native expo project
+
 6. npm install
 5. npm start
 
