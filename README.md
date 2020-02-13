@@ -9,7 +9,7 @@ To start the project
 2. npm start
 3. cd ..
 
-//Starting react native expo porject
+//Starting react native expo project
 
 4. yarn start 
 
